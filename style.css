@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+  
+    body{
+     
+      font-family: "Red Hat Display", serif;
+      background-image: url(./images/pattern-background-desktop.svg);
+      background-position:top;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: hsl(225, 100%, 94%);
+    }
+    .main{
+      max-width: 100%;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      font-family: "Red Hat Display", serif;
+    }
+    .content{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .container{
+      box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+      max-width: 100%;
+      width: 21rem;
+      border-radius: 15px;
+      background-color: hsl(0, 0%, 100%);
+    }
+    h2{
+      font-weight: 900;
+      font-family: "Red Hat Display", serif;
+      font-size: 1.5rem;
+      color: hsl(223, 47%, 23%);
+    }
+    .image{
+      background-image: url(./images/illustration-hero.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 10rem;
+      border-radius: 15px 15px 0px 0px ;
+    }
+    .wrap{
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .main-text{
+      font-size: 0.8rem;
+      line-height: 1.5rem;
+      color: hsl(224, 23%, 55%);
+    }
+    .price{
+      display: grid;
+      grid-template-columns: 1fr 4fr 4fr;
+      background-color: hsl(225, 100%, 98%);
+      align-items: center;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+      max-width: 100%;
+    }
+    .amount{
+      margin-top: -1rem;
+      color: hsl(224, 23%, 55%);
+      font-weight: 500;
+      font-size: 0.9rem;
+
+    }
+    .plan{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+    .Annual{
+      font-weight: 700;
+      color: hsl(223, 47%, 23%);
+    }
+    .music{
+      background-image: url(./images/icon-music.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 2.5rem;
+      width: 2.5rem;
+      margin-left: 1rem;
+      margin-right: 0.6rem;
+    }
+    
+    .buttons{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .pay{
+      border-radius: 10px;
+      box-shadow: 0px 10px 15px 1px hsl(240, 2%, 76%);
+      background-color: hsl(245, 75%, 52%);
+      color: white;
+      height: 2.5rem;
+      border: none;
+      transition: 0.5s;
+      cursor: pointer;
+      font-weight: 700;
+      font-family: "Red Hat Display", serif;
+    }
+    .pay:hover{
+      background-color: hsl(224, 23%, 55%);
+    }
+    .click{
+      transition: 0.5s;
+    }
+    a{
+      color: blue;
+      font-weight: 700;
+      font-size: 0.8rem;
+    }
+    a:hover{
+      text-decoration: none;
+    }
+    .click:hover{
+      color: hsl(224, 23%, 55%);
+
+    }
+    .cancel{
+      margin-bottom: 2rem;
+      margin-top: 1.2rem;
+      transition: 0.5s;
+      cursor: pointer;
+      font-family: "Red Hat Display", serif;
+      font-weight: 900;
+      font-size: 0.9rem;
+      color: hsl(224, 23%, 55%);
+    }
+    .cancel:hover{
+      color: hsl(223, 47%, 23%);
+    }
+    @media(min-width:300px) {
+      body{
+        background-image: url(./images/pattern-background-mobile.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .image{
+        width: 100%;
+      }
+    }
+    @media(max-width:500px){
+      .container{
+        display: flex;
+      justify-content: center;
+      align-items: center;
+        
+      }
+      body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      }
+    }
+    @media(max-width:440px){
+      .container{
+        margin-left:-0.5rem ;
+      }
+      body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      }
+    }
+    @media(max-width:500px){
+      .main{
+        margin-left:0.5rem ;
+       
+      }
+    }
