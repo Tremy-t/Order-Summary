@@ -1,7 +1,7 @@
 # Frontend Mentor - Order summary card
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/order-summary-htmlcss-7MlBGvPeL8)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution : [Frontend Mentor solution](https://www.frontendmentor.io/solutions/order-summary-htmlcss-7MlBGvPeL8)
+- Live Site : [Order Summary](https://tremy-t.github.io/Order-Summary/)
 
 - ## Author
 
